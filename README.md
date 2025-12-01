@@ -100,12 +100,10 @@
 
 ## 🔥 Business Recommendations
 
-  Recommendation	                                         Impact
+  Targeted retention for new & low-rating drivers -> Lower acquisition costs
 
-  Targeted retention for new & low-rating drivers	         Lower acquisition costs
+  City-wise driver engagement programs -> Region-specific churn reduction
 
-  City-wise driver engagement programs	                   Region-specific churn reduction
+  Income-based incentives -> Improve long-term driver stickiness
 
-  Income-based incentives	                                 Improve long-term driver stickiness
-
-  Predictive churn alerts inside driver CRM	               Prevent drop-off before exit
+  Predictive churn alerts inside driver CRM	-> Prevent drop-off before exit
