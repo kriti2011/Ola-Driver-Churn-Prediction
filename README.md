@@ -12,9 +12,13 @@ Each row = One driver-month record
 ##  Features
 
 Demographics	-> Age, Gender, City, Education Level
+
 Performance Metrics-> Quarterly Rating, Total Business Value
+
 Income & Tenure -> Monthly Income, Joining Date, Last Working Date
+
 Role Attributes	-> Grade, Designation at Joining
+
 Time Feature -> MMMM-YY (reporting month)
 
 ## 🔧 Project Workflow
@@ -28,21 +32,25 @@ Time Feature -> MMMM-YY (reporting month)
 ✔ Outlier & distribution assessment
 
 ### 2. Data Preprocessing
-Step	Detail
-KNN Imputation	Apply only to numerical variables
+
+Null Value Imputation
+
 Aggregation	Group by Driver_ID → One row per driver
-Feature Engineering	rating_increase, income_increase, tenure_days
-Target Creation	1 = churned, 0 = retained
-Encoding	One-hot encode categorical fields
-Scaling	Standardization before modeling
+
+Feature Engineering->	rating_increase, income_increase, tenure_days
+
+Target Creation->	1 = churned, 0 = retained
+
+Encoding-> One-hot encode categorical fields
+
+Scaling-> Standardization before modeling
 
 ### 3. Modeling
 
 Algorithms Implemented:
 
-Category	Models
-Bagging	Random Forest / BaggingClassifier
-Boosting	XGBoost / LightGBM
+Bagging-> Random Forest / BaggingClassifier
+Boosting -> XGBoost / LightGBM
 
 Additional handling:
 ⚠ Class Imbalance → SMOTE / Class Weights
