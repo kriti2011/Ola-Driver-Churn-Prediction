@@ -9,12 +9,12 @@ Source: ola_driver.csv
 Time Period: 2019–2020
 Each row = One driver-month record
 
-Feature Category	Examples
-Demographics	Age, Gender, City, Education Level
-Performance Metrics	Quarterly Rating, Total Business Value
-Income & Tenure	Monthly Income, Joining Date, Last Working Date
-Role Attributes	Grade, Designation at Joining
-Time Feature	MMMM-YY (reporting month)
+Feature Category	                Examples
+Demographics	                   Age, Gender, City, Education Level
+Performance Metrics	             Quarterly Rating, Total Business Value
+Income & Tenure	                 Monthly Income, Joining Date, Last Working Date
+Role Attributes	                 Grade, Designation at Joining
+Time Feature	                   MMMM-YY (reporting month)
 # 🔧 Project Workflow
 ## 1. Data Understanding & EDA
 
